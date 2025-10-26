@@ -13,6 +13,20 @@
 #define IDI_SMALL				108
 #define IDC_DOTLANGDESKTOP			109
 #define IDC_MYICON				2
+
+// Control IDs for modern layout
+#define IDC_HEADING_LABEL		1000
+#define IDC_INPUT_EDIT			1001
+#define IDC_OUTPUT_EDIT			1002
+#define IDC_BUTTON1				1003
+#define IDC_BUTTON2				1004
+#define IDC_BUTTON3				1005
+#define IDC_BUTTON4				1006
+#define IDC_BUTTON5				1007
+#define IDC_BUTTON6				1008
+#define IDC_BUTTON7				1009
+#define IDC_BUTTON8				1010
+
 #ifndef IDC_STATIC
 #define IDC_STATIC				-1
 #endif
@@ -24,7 +38,7 @@
 #define _APS_NO_MFC					130
 #define _APS_NEXT_RESOURCE_VALUE	129
 #define _APS_NEXT_COMMAND_VALUE		32771
-#define _APS_NEXT_CONTROL_VALUE		1000
+#define _APS_NEXT_CONTROL_VALUE		1011
 #define _APS_NEXT_SYMED_VALUE		110
 #endif
 #endif
